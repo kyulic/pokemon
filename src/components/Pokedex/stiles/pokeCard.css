@@ -1,0 +1,191 @@
+:root{
+    --color_fire:#E1580D;
+    --color_normal:#A368DB;
+    --color_fighting:#DB7768;
+    --color_groud:#2E4053;
+    --color_rock:#4F6EAF;
+    --color_bug:#4FAF72;
+    --color_ghost:#181C19;
+    --color_steel:#66666F;
+    --color_water:#2980B9;
+    --color_grass:#2AB14B;
+    --color_electric:#FFC300;
+    --color_psychic:#4E3F98;
+    --color_ice:#94C8F0;
+    --color_dragon:#9867EE;
+    --color_dark:#30204B;
+    --color_fairy:#D05CC5;
+
+
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+.pokecard{
+    margin: 4em 0 0.8em 3em;
+    width: 100%;
+    max-width: 320px; 
+    font-size: 1rem;
+    border-radius: 0.5em;
+    border: 0.5em solid currentColor;
+    
+     cursor: pointer;
+}
+.pokecard:hover{
+   transform: scale(1.05);
+  
+}
+
+
+
+.pokecard_header{
+    background-color:currentColor;
+    position: relative;
+    aspect-ratio: 1.8;
+    /* border-radius: 0.5em 0.5em 0 0; */
+    
+    
+
+}
+
+.pokecard_img{
+    position: absolute;
+    width: 60%;
+    bottom: -3em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.pokecard_section{
+    padding-top: 3em;
+    
+}
+.pokecard_name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+
+.pokecard_type{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    position: relative;
+
+}
+
+.pokecard_items{
+    text-transform: capitalize;
+    color: #000;
+    font-weight: bold;
+}
+
+/* para ponerle es / a los que tengan dos tipologias */
+
+.pokecard_items:before{
+    position: absolute;
+    content: '/';    
+    left: 9.3em;
+}
+
+.pokecard_items:first-child::before{
+    content: '';
+}
+
+.pokecard_stats{
+    padding: 0.5em 0.5em 2em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em 0.2em;
+    justify-items: center;
+    
+
+}
+
+.pokecard_stats_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+
+}
+
+.pokecard_info{
+    opacity: 0.4;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: #181C19;
+}
+
+.pokecard_span_base{
+    font-size: 1.1rem;
+}
+
+.fire{
+ color: var(--color_fire);
+}
+
+.water{
+    color: var(--color_water);
+}
+
+.grass{
+    color: var(--color_grass);
+}
+
+.bug{
+    color: var(--color_bug);
+}
+
+.normal{
+    color: var(--color_normal);
+}
+
+.fighting{
+    color: var(--color_fighting);
+}
+
+.ground{
+    color: var(--color_groud);
+}
+
+.rock{
+    color: var(--color_rock);
+}
+
+.ghost{
+    color: var(--color_ghost);
+}
+
+.steel{
+    color: var(--color_steel);
+}
+
+.electric{
+    color: var(--color_electric);
+}
+
+.psychic{
+    color: var(--color_psychic);
+}
+
+.ice{
+    color: var(--color_ice);
+}
+
+.dragon{
+    color: var(--color_dragon);
+}
+
+.dark{
+    color: var(--color_dark);
+}
+
+.fairy{
+    color: var(--color_fairy);
+}

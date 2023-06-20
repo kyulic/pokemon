@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Fraunces:wght@700&family=Lexend+Deca:wght@400;700&family=Lexend:wght@500&family=Libre+Baskerville&family=Luckiest+Guy&family=Sen:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --color_violet:#C70039;
+    --color-fond:rgb(255 255 255)
+}
+.home{
+    background-color: var(--color-fond) ;
+    min-height: 100vh; 
+    padding-top: 10em;
+    text-align: center;
+    align-items:center ;
+    position: relative;
+    padding-bottom: 5em;
+    
+}
+
+
+.title_home{
+    
+    /* font-family: 'Pokemon Solid', sans-serif; */
+    font-family: 'Sen', sans-serif;
+    font-size: 4.5rem;
+    padding-bottom: 0.5em;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+}
+
+.hi_home{
+    margin-bottom: 1em;
+    
+    font-size: 2rem;
+    color: var(--color_violet) ;
+    font-weight: 600;
+
+}
+
+.parra_home{
+    margin-bottom: 1.5em;
+    font-size: 1.3rem;
+}
+
+
+
+.input_home{
+    text-decoration: none;
+    width: 20em;
+    height: 2.3em;
+    border-radius: 0.3rem 0 0 0.3rem;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 2px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+.button_home{
+    text-decoration: none;
+    width: 9em;
+    height: 2.3em;
+    cursor: pointer;
+    border-radius: 0 0.2rem 0.2rem 0 ;
+    background-color: var(--color_violet);
+    color:var(--color-fond) ;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 2px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+.button_home:hover{
+    color: var(--color_violet);
+    background-color:black;
+}
+
+.img_home{
+    width: 35em;
+    height: 10em;
+    display: inline-block;
+    border: none;
+    filter: brightness(1.1);
+
+}
+
+.franja_home{
+    background-color: #000;
+    width: 100%;
+    height: 4em;
+    position: absolute;
+    bottom: 0;
+    
+
+}
+
+.seccion_home{
+    background-color: rgb(255 0 0);
+    width: 100%;
+    height: 2.3em;
+    
+}
+
+.img_footer{
+    display: inline-block;
+    width:4em;
+    height: 4em;
+    position: absolute;
+    
+    filter:brightness(1.1);
+    top: -4em;
+    right: 1em;
+    
+    /* mix-blend-mode: multiply; */
+
+
+}
+
+
+@media(max-width:800px){
+    .img_home{
+        
+        display: block;
+        width: 100%;    
+    
+    }
+
+   
+}

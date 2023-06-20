@@ -1,0 +1,64 @@
+img{
+    width: 100%;
+    display: block;
+}
+
+/* error */
+.error{
+    min-height: 100vh;
+    color:red;
+    background-color: black;
+    position: relative;
+
+}
+
+.pikachu{
+    max-height: 100vh;
+    
+}
+
+.msj_error{
+    position: absolute;
+    top: 3em;
+    left: 10em;
+    box-shadow: 5px 5px 5px 10px rgba(0, 125, 255, 2);
+    background-color: aliceblue;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+
+
+}
+
+.seccion_home{
+    font-size: 1rem;
+    font-weight: bold;
+   
+}
+
+.link_repositorio{
+    color: var(--color_bug);
+    text-decoration: none;
+    font-weight: bold;
+   }
+
+   @media(max-width:800px){
+
+    .msj_error{
+        
+        top: 3em;
+        left: 1em;
+        
+        font-size: 1.2rem;
+      
+    
+    
+    }
+    .pikachu{
+        min-height: 100vh;
+        
+    }
+
+
+   }
+   
