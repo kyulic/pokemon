@@ -36,7 +36,7 @@ const Home = () => {
 
       <div><img className='img_footer' src="../pokebola.png" alt="pokebola" /></div>
         <section className='seccion_home'>Karla Yulieth Caquimbo U.: 
-        <a className='link_repositorio' href="">Repositorio</a></section>
+        <a className='link_repositorio' href="https://github.com/kyulic/pokemon">Repositorio</a></section>
       </footer>
     </div>
   )
