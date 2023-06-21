@@ -62,6 +62,7 @@ const Pokedex = () => {
     <div className="pokedex_div">
       <header className="pokedex_footer">
         <img className="pokedex_imag_header" src="../headerpokedex.svg" alt="header pokedex" />
+        
       </header>
       <p className="pokedex_welcome">Welcome <span className="pokedex_name">{trainerName}</span> !!!, you canfind your favorite pokemon</p>
       <div className="pokedex_select">
