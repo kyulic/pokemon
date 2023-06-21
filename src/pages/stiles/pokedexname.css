@@ -230,9 +230,13 @@
 
 .pokedexname_abili_type{
     justify-content: center;
-    display: flex;    
+    /* display: flex;     */
     
+    display: grid;
     
+    grid-template-columns:repeat(4, 1fr);
+    
+    min-width: 80%;
     font-size: 0.8rem;
     gap: 2em;
     
@@ -244,20 +248,25 @@
 
 .pokedexname_type{
     
+    grid-column: 2/3;
     display: flex;
     gap: 1em;
+    justify-content: center;
     align-items: center;
     text-align: center;
+
     
     }
 
 .pokedexname_items{
+    
     display: inline-block;
     background-color: #84ABFA;
     padding-top: 1em;   
     color: var(--color-fond);
     width: 10vh;
     height: 4em;
+    
     
 }
 .pokedexname_items_ability{
@@ -272,6 +281,8 @@
 }
 
 .pokedexname_ability{
+    justify-content: center;
+    
     display: grid;
    grid-template-columns: repeat(3,1fr);
 
@@ -359,7 +370,7 @@
     border-radius: 1.5em;
     display: block;
     background-color: silver;
-    justify-content: center;
+    
     text-align: center;
     align-items: center;
     
