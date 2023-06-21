@@ -1,4 +1,4 @@
-import PokeCard from "./pokeCard"
+import PokeCard from "../Pokedex/PokeCard"
 
 
 
